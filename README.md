@@ -1,4 +1,4 @@
-# The “Prototype” Unity pattern - an improvement on the standard Prefab workflow
+# The “Prototype” Unity pattern - an alternative to the standard Prefab workflow
 
 While working on [Heaven’s Vault](https://www.inklestudios.com/heavensvault/), [we](https://www.inklestudios.com/) hit upon a simple yet really powerful pattern that’s made possible with a single lightweight component. It’s incredibly useful for a wide range of use cases, but we’ve been using it primarily for our dynamic text UI.
 
