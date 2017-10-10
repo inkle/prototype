@@ -10,7 +10,7 @@ You then realise you want to make changes to the tank. So, you drag it back into
 
 ## Enter: The Prototype component
 
-The Prototype component does a few simple things that hugely improves this workflow. It some cases it can replace the use of prefabs, and in other cases it can be used in conjunction with them.
+The [Prototype component](https://github.com/inkle/prototype/blob/master/Prototype.cs) does a few simple things that hugely improves this workflow. It some cases it can replace the use of prefabs, and in other cases it can be used in conjunction with them.
 
 Take our enemy tank example - starting from the top: we create the model with the gameplay components in the main scene. We then add the Prototype component.
 
