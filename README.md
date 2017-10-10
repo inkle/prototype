@@ -24,11 +24,12 @@ Next, we create a reference to the Prototype in the Spawner component:
 
 In order to spawn instances, the prototype class provides a handy Instantiate method to use instead of the built in Unity one. Here’s how you use it:
 
-    var newTank = enemyTankPrototype.Instantiate<Tank>(); 	newTank.target = player;
+    var newTank = enemyTankPrototype.Instantiate<Tank>();
+    newTank.target = player;
 
 So, it clones the prototype as you would expect, and takes a generic parameter so you can conveniently get a particular component out while you’re doing so.
 
-Unlike Unity’s built in Instantiate, this one will put the new instance in the same place in the hierarchy as the prototype - as a sibling. This is useful behaviour for UI especially - if you want to dynamically spawn a set of buttons, it’s useful for them to stay nested under the parent rather than jumping up to the top level. In the case of the enemy tanks, maybe it’s helpful to have them nested under a group transform so they don’t clutter up our main hierarchy.
+Unlike Unity’s built in `Instantiate`, this one will put the new instance in the same place in the hierarchy as the prototype - as a sibling. This is useful behaviour for UI especially - if you want to dynamically spawn a set of buttons, it’s useful for them to stay nested under the parent rather than jumping up to the top level. In the case of the enemy tanks, maybe it’s helpful to have them nested under a group transform so they don’t clutter up our main hierarchy.
 
 So, right now we’ve matched our prefab behaviour with the extra advantage that we can make edits within the scene without having to apply the changes to the prefab each time and remove the existing instance.
 
