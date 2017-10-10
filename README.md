@@ -66,8 +66,8 @@ And of course, the full hierarchy exists in the main scene in edit mode, making 
 
 ## Open Source
 
-The Prototype class is available [right here]() on github. It’s a really small amount of code to add to your project, but we now find it invaluable!
+The Prototype class is available [right here](https://github.com/inkle/prototype/blob/master/Prototype.cs) on github. It’s a really small amount of code to add to your project, but we now find it invaluable!
 
 ## License
 
-[MIT license]().
+[MIT license](https://github.com/inkle/prototype/blob/master/LICENSE). We'd appreciate any feedback you have - let us know on the [Issues](https://github.com/inkle/prototype/issues) page, or [drop us a tweet](https://twitter.com/inklestudios)!
