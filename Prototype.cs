@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 using System;
 
@@ -6,7 +6,7 @@ using System;
 /// Convenience way to create objects in the hierarchy that are a bit like prefabs, except that they
 /// aren't. They exist in the scene, immediately deactivate themselves, then provide an easy way to
 /// instantiate a copy in the same place in the hierarchy.
-/// NEW FEATURE! If you call ReturnToPool() once you're done with the instance, then it's returned
+/// If you call ReturnToPool() once you're done with the instance, then it's returned
 /// to the original prototype to be reused if necessary instead of creating a brand new GameObject.
 /// </summary>
 public class Prototype : MonoBehaviour {
