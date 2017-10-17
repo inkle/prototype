@@ -1,5 +1,7 @@
 # The “Prototype” Unity pattern - an alternative to the standard Prefab workflow
 
+![](https://raw.githubusercontent.com/inkle/prototype/master/prototype-component-demo.gif)
+
 While working on [Heaven’s Vault](https://www.inklestudios.com/heavensvault/), [we](https://www.inklestudios.com/) hit upon a simple yet really powerful pattern that’s made possible with a single lightweight component. It’s incredibly useful for a wide range of use cases, but we’ve been using it primarily for our dynamic text UI.
 
 Think of the standard prefab workflow: You set up an object in your scene, let's say an Enemy Tank. You give it a model, a few gameplay components, and then convert it into a prefab so that you can spawn multiple instances via code. We drag the prefab into a Spawner object so that it can be created at runtime.
